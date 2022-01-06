@@ -1,0 +1,66 @@
+@import '../../../assets/scss/styles.scss';
+
+.contentSummaryBody {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 30px;
+
+    >.contentHeader {
+        display: flex;
+        align-items: center;
+
+        >.contentIcon {
+            width: 16px;
+            height: 16px;
+
+            display: flex; 
+            justify-content: center;
+            align-items: center;
+
+            border-radius: 20px;
+        }
+
+        >h5 {
+            color: #1C1F3794;
+            margin-left: 4px;
+        }
+    }
+
+    >.contentContent {
+        display: flex;
+        align-items: flex-end;
+
+        margin-top: 10px;
+
+        
+
+        >div {
+            margin-bottom: 3px;
+            margin-left: 4px;
+
+            display: flex;
+
+            >svg {
+                margin-left: 5px;
+                margin-right: 2px;
+                margin-bottom: 3px;
+            }
+
+            >p {
+                color: #1C1F3794;
+            }
+
+            .green {
+                margin-right: 1px;
+                color: rgba(48, 217, 136, 1);
+            }
+
+            .red {
+                margin-right: 1px;
+                color: #DD405F;
+            }
+        }
+
+    }
+}

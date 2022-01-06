@@ -1,0 +1,237 @@
+@import '../assets/scss/styles.scss';
+
+.home {
+
+    display: flex;
+    
+
+    >.homeLeft {
+
+        margin-left: 60px;
+
+        padding-top: 18px;
+       
+
+        width: 480px;
+        max-height: calc(100vh - #{$navbarMainHeight});
+
+        >.homeProfil {
+
+            >.welcome {
+                color: #6F6F6F;
+                margin-top: 6px;
+                margin-bottom: 21px;
+            }
+        }
+
+        >.schedule {
+
+            display: flex;
+            align-items: center;
+            
+
+            >div {
+
+                width: 400px;
+                
+
+                >.scheduleTitle {
+
+
+                    >h2{
+                        margin-left: 20px;
+                    }
+
+
+                    >.details {
+                        display: flex;
+                        align-items: center;
+
+                        margin-right: 10px;
+                    }
+                }
+
+                >.scheduleList {
+
+                    padding-bottom: 30px;
+
+                    hr{
+                        margin: 0 21px;
+                        height: 1px;
+                        background-color: #DADADA;
+                        border: none;
+
+                        opacity: 0.5;
+
+                    }
+                }
+            }
+        }
+
+        >.topChannels {
+            display: flex;
+            align-items: center;
+
+            margin-top: 33px;
+
+            >div {
+                width: 400px;
+
+                >.channelTitle {
+
+                    >h2 {
+                        margin-left: 20px;
+                    }
+                    
+
+                    >.details {
+                        display: flex;
+                        align-items: center;
+
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+
+        
+    }
+
+
+    >.homeRight {
+
+        width: 100%;
+        height: 100%;
+        margin-left: 45px;
+        margin-right: 55px;
+        margin-top: 48px;
+
+        >h3 {
+            margin-top: 50px,
+        }
+        
+
+        >.titleContentSummary {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            >.timePeriod {
+                display: flex;
+                align-items: center;
+
+                cursor: pointer;
+
+                >svg {
+                    margin-left: 14px;
+                }
+            }
+        }
+
+        >.contentSummary {
+
+            >div {
+                padding-top: 16px;
+                padding-bottom: 16px;
+                padding-right: 22px;
+
+                margin-top: 25px;
+
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                >.contentList {
+                    display: flex;
+                }
+
+                >.downloadButton {
+
+
+                        width: 107px;
+                        padding: 11px 0;
+
+                        display: flex;
+                        justify-content: center;
+
+                        background-color: #F2F4FD;
+                        border-radius: 6px;
+
+                        >svg {
+                            margin-right: 12px;
+                        }
+                    
+                }
+            }
+        }
+
+        >.audienceHeader {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            margin-top: 18px;
+
+            >.labels {
+
+                display: flex;
+
+                >.femaleDiv {
+                    margin-left: 10px;;
+                }
+
+                >div {
+                    height: 25px;
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    border: 1px solid rgba(0, 0, 0, 0.09);
+                    border-radius: 7px;
+                    
+
+                    >.male {
+                        width: 12px;
+                        height: 12px;
+                        border-radius: 20px;
+        
+                        background-color: #017EFA;
+                        margin-left: 9px;
+                    }
+        
+                    >.female {
+                        width: 12px;
+                        height: 12px;
+                        border-radius: 20px;
+        
+                        background-color: #51CBFF;
+                        margin-left: 9px;
+                    }
+
+                    >p {
+                        margin-left: 8px;
+                        padding-right: 13px;
+                    }
+
+                }
+                
+            }
+
+            >.period {
+                display: flex;
+                align-items: center;
+
+                >svg {
+                    margin-left: 14px;
+                    cursor: pointer;
+                }
+            }
+
+        }
+
+       
+
+        
+    }
+}

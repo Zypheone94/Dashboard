@@ -1,0 +1,35 @@
+$sidebarMainWidth : 280px;
+$navbarMainHeight: 90px;
+
+// $test: 100vh - $navbarMainHeight;
+
+// Colors
+$primary: #017EFA;
+$primaryHover: #409dfa;
+$warning: #CF3A59;
+
+$cyan: #51CBFF;
+$grey: #DADADA;
+
+.widgetTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 61px;
+}
+
+.seeDetails {
+    color: #017EFA;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.hr {
+    border: none;
+    height: 1px;
+    background-color: #DADADA;
+
+    margin-top: 0;
+    margin-bottom: 0;
+}

@@ -1,0 +1,14 @@
+@import '../../../../assets/scss/styles.scss';
+
+.barChart {
+    // background-color: pink;
+    width: 100%;
+    height: 340px;
+
+    >.container {
+        height: 100%;
+        width: 100%;
+
+        padding: 5px 0;
+    }
+}

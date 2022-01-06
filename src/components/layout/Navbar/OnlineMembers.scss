@@ -1,0 +1,59 @@
+@import '../../../assets/scss/styles.scss';
+
+
+.onlineMemberNavbar{
+	display: flex;
+	align-items: center;
+	gap:13px;
+
+	>.text{
+		display: flex;
+		align-items: center;
+		gap:6px;
+		color:#30D988;
+		>.round{
+			width:7px;
+			height:7px;
+			background:#30D988;
+			border-radius: 1000px;
+		}
+	}
+
+	>.members{
+		display: flex;
+		align-items: center;
+		position:relative;
+		width:108px;
+		height:42px;
+		
+		
+		>.memberPhoto{
+			width:38px;
+			height:38px;
+			overflow:hidden;
+			border-radius: 10000px;
+			border: 2px solid #FFFFFF;
+			position:absolute;
+			z-index:20;
+
+			>img{
+				width:100%;
+				height:100%;
+				object-fit: cover;
+			}
+
+			&:nth-child(2){
+				left:22px;
+				z-index:19;
+			}
+			&:nth-child(3){
+				left:44px;
+				z-index:18;
+			}
+			&:nth-child(4){
+				left:66px;
+				z-index:17;
+			}
+		}
+	}
+}

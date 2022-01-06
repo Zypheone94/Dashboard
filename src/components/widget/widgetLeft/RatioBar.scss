@@ -1,0 +1,24 @@
+@import '../../../assets//scss/styles.scss';
+
+#barPart{
+    height: 10px;
+    margin: 0 2px;
+}
+
+.facebook {
+    background-color: #017EFA;
+    border-radius: 10px 0 0 10px;;
+}
+
+.instagram {
+    background-color: #FD1F9B;
+}
+
+.linkedIn {
+    background-color: #007AB5;
+}
+
+.youtube {
+    background-color: #FF0000;
+    border-radius: 0 10px 10px 0;
+}

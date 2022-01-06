@@ -1,0 +1,31 @@
+@import '../../../assets/scss/styles.scss';
+
+.navbarProfil{
+	display: flex;
+	align-items: center;
+	gap:16px;
+	cursor:pointer;
+
+	>.image{
+		// min-width:38px;
+		width:38px;
+		height:38px;
+		overflow:hidden;
+		border-radius: 9px;
+		>img{
+			width:100%;
+			height:100%;
+			object-fit: cover;
+		}
+	}
+
+	>.infos{
+		>p{
+			margin-top: 6px;
+		}
+	}
+
+	>svg{
+		width:24px;
+	}
+}

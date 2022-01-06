@@ -1,0 +1,21 @@
+@import '../../../assets/scss/styles.scss';
+
+.searchNavbar{
+	display: flex;
+	align-items: center;
+	gap:12px;
+
+	>svg{
+		width:24px;
+	}
+
+	>input[type=text]{
+		border:unset;
+		background:unset;
+
+		&::placeholder{
+			opacity:1;
+			color:#979797;
+		}
+	}
+}

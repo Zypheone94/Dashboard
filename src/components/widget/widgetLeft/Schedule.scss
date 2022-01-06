@@ -1,0 +1,81 @@
+@import '../../../assets/scss/styles.scss';
+
+.element {
+
+    margin: 0 21px;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+
+
+    >.informations {
+
+        display: flex;
+        margin-top: 16px;
+
+        >.date {
+            width: 40px;
+            height: 46px;
+
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+
+            border: 1px solid #DADADA;
+            border-radius: 4px;
+            
+            >.month {
+                color: #6F6F6F;
+            }
+
+            >.numberDate {
+                color: #1C1F37;
+
+            }
+        }
+
+        >.todo {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 8px;
+
+            >p {
+                margin-top: 10px;
+                color: #6F6F6F;
+            }
+        }
+    }
+
+    >.percentage {
+
+        display: flex;
+        align-items: center;
+
+        margin-top: 13px;
+        margin-bottom: 16px;
+        
+        >.total {
+            width: 69px;
+            height: 4px;
+
+            background: #C4C4C4;
+            border-radius: 20px;
+
+            >.completion {
+                background-color: #51CBFF;
+                height: 4px;
+            }
+        }
+
+        >p {
+            margin-left: 11px;
+            color: #6F6F6F;
+        }
+    }
+
+}
+

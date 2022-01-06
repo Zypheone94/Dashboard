@@ -1,0 +1,108 @@
+@import "../../../assets/scss/styles.scss";
+
+.sidebarMain {
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: $sidebarMainWidth;
+	background: #081a51;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	overflow-y: scroll;
+
+
+	color: #ffffff;
+
+	> .top {
+		> .logo {
+			display: flex;
+			align-items: center;
+			margin-top: 24px;
+			margin-left: 31px;
+			> svg {
+				width: 40px;
+				height: 40px;
+			}
+
+			> h1 {
+				margin-left: 14px;
+			}
+		}
+
+		>.menu{
+			margin-top: 60px;
+
+			>.sidebarSubmenu{
+				margin-top: 32px;
+
+				&:first-child{margin-top: unset;}
+			}
+		}
+	}
+
+
+
+	> .bottom {
+		margin-top: 40px;
+
+		.needHelp{
+			background: #1B2B65;
+			border-radius: 8px;
+			margin-left: 20px;
+			margin-right: 20px;
+			margin-bottom: 40px;
+			position:relative;
+			text-align: center;
+			padding-bottom: 17px;
+
+			>.questionIcon{
+				width:40px;
+				height:40px;
+				border-radius: 10000px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				background: #AABBFA;
+				box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+				position:absolute;
+				top:-20px;
+				left:50%;
+				transform: translateX(-50%);
+				>svg{
+					width:28px;
+				}
+			}
+
+			>p{
+				padding-top: 32px;
+			}
+
+			>button{
+				width:calc(100% - 38px);
+				box-sizing: border-box;
+				background: $primary;
+				
+				border-radius: 6px;
+				margin-left: 19px;
+				margin-right: 19px;
+				margin-top: 20px;
+
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 40px;
+
+				transition: background 120ms ease-in-out;
+
+				&:hover{
+					background: $primaryHover;
+				}
+			}
+
+		}
+	}
+}

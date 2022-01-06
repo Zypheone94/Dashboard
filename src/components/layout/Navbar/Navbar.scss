@@ -1,0 +1,40 @@
+@import '../../../assets/scss/styles.scss';
+
+.navbarMain{
+	position:fixed;
+	top:0;
+	right:0;
+	left:$sidebarMainWidth;
+	height:90px;
+	background:#F8F9FF;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #DADADA;
+	padding: 0 40px 0 60px;
+
+	>.left{
+		display: flex;
+		align-items: center;
+
+		>.separator{
+			margin-left: 22px;
+			margin-right: 27px;
+		}
+
+	}
+	>.right{
+		display: flex;
+		align-items: center;
+		>.separator{
+			margin-left: 28px;
+			margin-right: 21px;
+		}
+	}
+
+	.separator{
+		width:1px;
+		height:40px;
+		background:#DADADA;
+	}
+}
